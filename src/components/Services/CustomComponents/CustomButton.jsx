@@ -1,6 +1,6 @@
 const CustomButton = ({ text, onClick }) => {
   return (
-    <a
+    <div
       href='#_'
       onClick={onClick}
       className='relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-[#002366] transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group'
@@ -41,7 +41,7 @@ const CustomButton = ({ text, onClick }) => {
       <span className='relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white'>
         {text}
       </span>
-    </a>
+    </div>
   );
 };
 
