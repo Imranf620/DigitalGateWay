@@ -7,6 +7,10 @@
   padding: 0;
   box-sizing: border-box;
   /* overflow-x: hidden; */
+<<<<<<< HEAD
+=======
+  /* Remove the hidden property */
+>>>>>>> 07be31aec77a36079c7dfc4bde5f4112f1b4e4e6
 }
 body {
   font-family: sans-serif;
