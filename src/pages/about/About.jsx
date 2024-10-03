@@ -35,7 +35,7 @@ const About = () => {
       style={{ backgroundImage: `url(${bg})`, padding: '0' }}
     >
       {/* Blue Overlay */}
-      <div className='absolute inset-0 bg-[#002366] opacity-50'></div>
+      <div className='absolute inset-0 primary opacity-50'></div>
       <main className='max-w-[90vw] mx-auto'>
         {/* Content */}
         <div className='relative z-10 py-12'>

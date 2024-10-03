@@ -62,17 +62,7 @@ video {
   object-fit: cover;
   z-index: -1;
 }
-/* .swiper-pagination,
-.swiper-pagination-clickable,
-.swiper-pagination-bullets,
-.swiper-pagination-horizontal {
-  position: absolute;
 
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 10;
-} */
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: var(--swiper-pagination-bottom, -5px) !important;

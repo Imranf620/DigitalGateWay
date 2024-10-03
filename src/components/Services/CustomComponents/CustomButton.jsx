@@ -5,7 +5,7 @@ const CustomButton = ({ text, onClick }) => {
       onClick={onClick}
       className='relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-[#002366] transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group'
     >
-      <span className='absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-[#002366] group-hover:h-full'></span>
+      <span className='absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out primary group-hover:h-full'></span>
       <span className='absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12'>
         <svg
           className='w-5 h-5 text-green-400'
