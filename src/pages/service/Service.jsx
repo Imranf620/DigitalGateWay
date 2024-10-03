@@ -10,7 +10,7 @@ const Service = () => {
   const { name, fieldDefinition, icon, cta, category } = singleService;
   return (
     <section
-      className='mt-12 bg-cover bg-center relative '
+      className=' bg-cover bg-center relative '
       style={{ backgroundImage: `url(${bg})`, padding: '0' }}
     >
       {/* Blue Overlay */}
