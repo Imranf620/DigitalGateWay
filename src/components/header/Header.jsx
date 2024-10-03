@@ -32,7 +32,7 @@ const Header = () => {
                 Services
               </Link>
               {isServicesHovered && (
-                <div className='absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10'>
+                <div className='absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50'>
                   <div
                     className='py-1'
                     role='menu'
@@ -40,25 +40,25 @@ const Header = () => {
                     aria-labelledby='options-menu'
                   >
                     <Link
-                      to='/services/service1'
+                      to='/services/1'
                       className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100'
                       role='menuitem'
                     >
-                      Service 1
+                      Digital Marketing
                     </Link>
                     <Link
-                      to='/services/service2'
+                      to='/services/2'
                       className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100'
                       role='menuitem'
                     >
-                      Service 2
+                      NFC Cards
                     </Link>
                     <Link
-                      to='/services/service3'
+                      to='/services/3'
                       className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100'
                       role='menuitem'
                     >
-                      Service 3
+                      Business Development
                     </Link>
                   </div>
                 </div>
@@ -136,7 +136,7 @@ const Header = () => {
                   Services
                 </Link>
                 {isServicesHovered && (
-                  <div className='absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10'>
+                  <div className='absolute left-0  mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10'>
                     <div
                       className='py-1'
                       role='menu'
@@ -144,25 +144,25 @@ const Header = () => {
                       aria-labelledby='options-menu'
                     >
                       <Link
-                        to='/services/service1'
+                        to='/services/1'
                         className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100'
                         role='menuitem'
                       >
-                        Service 1
+                        Digital Marketing
                       </Link>
                       <Link
-                        to='/services/service2'
+                        to='/services/2'
                         className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100'
                         role='menuitem'
                       >
-                        Service 2
+                        NFC Cards
                       </Link>
                       <Link
-                        to='/services/service3'
+                        to='/services/3'
                         className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100'
                         role='menuitem'
                       >
-                        Service 3
+                        Business Development
                       </Link>
                     </div>
                   </div>
