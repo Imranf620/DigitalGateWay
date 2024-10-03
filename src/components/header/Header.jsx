@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,7 +39,7 @@ const Header = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-[18px] text-[#000] hover:text-[#002366]">
               <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
                 {isMenuOpen ? (

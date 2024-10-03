@@ -7,10 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   /* overflow-x: hidden; */
-<<<<<<< HEAD
-=======
   /* Remove the hidden property */
->>>>>>> 07be31aec77a36079c7dfc4bde5f4112f1b4e4e6
 }
 body {
   font-family: sans-serif;
@@ -49,13 +46,13 @@ body {
 }
 
 /* bushra's css */
-.text-primary{
-  color:#002366 ;
+.text-primary {
+  color: #002366;
 }
-.text-secondary{
-  color:#ffd700 ;
+.text-secondary {
+  color: #ffd700;
 }
-.body-color{
+.body-color {
   background-color: #333333;
 }
 video {
