@@ -70,3 +70,16 @@ video {
 .swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: var(--swiper-pagination-bottom, -5px) !important;
 }
+.icn{
+  transition: ease-in-out 0.5s;
+}
+.icn:hover{
+  margin-top: -10px;
+}
+.second{
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+.mainhover:hover .second{
+  opacity: 1;
+}

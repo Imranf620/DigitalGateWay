@@ -40,21 +40,21 @@ const Header = () => {
                     aria-labelledby='options-menu'
                   >
                     <Link
-                      to='/services/1'
+                      to='/digital'
                       className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100'
                       role='menuitem'
                     >
                       Digital Marketing
                     </Link>
                     <Link
-                      to='/services/2'
+                      to='/nfc'
                       className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100'
                       role='menuitem'
                     >
                       NFC Cards
                     </Link>
                     <Link
-                      to='/services/3'
+                      to='/busi'
                       className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100'
                       role='menuitem'
                     >
