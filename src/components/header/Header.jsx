@@ -119,7 +119,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className='lg:hidden mt-4 space-y-2 absolute top-[35px] left-[1px] w-full bg-white z-10'>
+          <div className='lg:hidden mt-4 space-y-2 absolute top-[35px] left-[1px] w-full bg-white z-20'>
             <div className='flex flex-col p-6 gap-2'>
               <Link to='/' className='block text-gray-800 hover:text-blue-600'>
                 Home
